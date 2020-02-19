@@ -1,4 +1,5 @@
-function() {
+function createStore() {
+
   let state;
   function dispatch(action){
     state = reducer(state, action);
