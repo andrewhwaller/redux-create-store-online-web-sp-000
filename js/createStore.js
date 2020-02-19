@@ -32,3 +32,4 @@ button.addEventListener('click', function() {
 })
 
 let store = createStore();
+store.dispatch({ type: "@@INIT" })
