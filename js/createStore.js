@@ -35,7 +35,7 @@ dispatch({ type: '@@INIT' })
 let button = document.getElementById('button');
 
 button.addEventListener('click', function() {
-    dispatch({ type: 'INCREASE_COUNT' });
+    store.dispatch({ type: 'INCREASE_COUNT' });
 })
 
 let store = createStore();
