@@ -14,7 +14,7 @@ function createStore() {
     dispatch,
     getState
   };
-}
+};
 
 function reducer(state = { count: 0 }, action) {
   switch (action.type) {
